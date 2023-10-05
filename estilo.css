@@ -5,6 +5,90 @@
     box-sizing: border-box;
     font-family: 'Open Sans';
 }
+
+.text-center{
+    text-align: center;
+}
+
+.header{
+    background-color: #f85151;
+    padding: 20px 0;
+    display: flex;
+}
+
+.logo{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.titulo-logo{
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buscador{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.input-buscar{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    color: #707070;
+}
+
+.bt-buscar{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+.carrito{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    margin-right: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50px ;
+}
+
+.img-carrito{
+    width: 30px;
+    font-size: 20px;
+}
+
+.cart-count{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fb8f8f;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+
 .contenido{
     max-width: 1200px;
     width: 100%;

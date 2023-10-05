@@ -5,25 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>CALZADO DEPORTIVO</title>
+    <title>CALZADOS DEPORTIVO</title>
 </head>
 <body>
+    <div class="header">
+        <div class="logo">
+            <a href="/" style="text-decoration: none;">
+                <span class="titulo-logo">Calzados Deportivos</span>
+            </a>
+        </div>
+        <div class="buscador">
+            <input class="input-buscar" type="text" placeholder="Buscar">
+            <button class="bt-buscar">🔍</button>
+        </div>
+        <div class="carrito">
+            <span class="img-carrito">🛒</span>
+            <span class="cart-count">0</span>
+        </div>
+    </div>
     <section class="contenido">
         <div class="mostrador" id="mostrador">
+            <h1 class="text-center">🤩 Los mejores calzados 👟</h1>
             <div class="fila">
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
                         <img src="img/1.png" alt="">
                     </div>
                     <p class="descripcion">NIKE AIR 97</p>
-                    <span class="precio">$ 1.300</span>
+                    <span class="precio">150.000 ₲</span>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
                         <img src="img/2.png" alt="">
                     </div>
                     <p class="descripcion" id>NIKE RUNNING TERRA </p>
-                    <span class="precio">$ 1.800</span>
+                    <span class="precio">180.000 ₲</span>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
@@ -31,14 +47,14 @@
                     </div>
                     <p class="descripcion">NIKE WINFLO 8
                     </p>
-                    <span class="precio">$ 3.600</span>
+                    <span class="precio">360.000 ₲</span>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
                         <img src="img/4.png" alt="">
                     </div>
                     <p class="descripcion">NIKE LOW-TOP</p>
-                    <span class="precio">$ 1.800</span>
+                    <span class="precio">180.000 ₲</span>
                 </div>
             </div>
             <div class="fila">
@@ -47,28 +63,28 @@
                         <img src="img/5.png" alt="">
                     </div>
                     <p class="descripcion">NIKE BLAZER 97</p>
-                    <span class="precio">$ 130</span>
+                    <span class="precio">130.000 ₲</span>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
                         <img src="img/6.png" alt="">
                     </div>
                     <p class="descripcion">NIKE LEGEND ESENTIAL</p>
-                    <span class="precio">$ 2.000</span>
+                    <span class="precio">200.000 ₲</span>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
                         <img src="img/7.png" alt="">
                     </div>
                     <p class="descripcion">NIKE AIR ZOOM</p>
-                    <span class="precio">$ 2.500</span>
+                    <span class="precio">250.000 ₲</span>
                 </div>
                 <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
                         <img src="img/8.png" alt="">
                     </div>
                     <p class="descripcion">NIKE TERRA KING</p>
-                    <span class="precio">$ 1.800</span>
+                    <span class="precio">180.000 ₲</span>
                 </div>
             </div> 
         </div>
@@ -82,12 +98,14 @@
                 <h2 id="modelo">NIKE MODEL 1</h2>
                 <p id="descripcion">Descripción Modelo 1</p>
 
-                <span class="precio" id="precio">$ 130</span>
+                <span class="precio" id="precio">130.000 ₲</span>
 
                 <div class="fila">
                     <div class="size">
                         <label for="">SIZE</label>
                         <select name="" id="">
+                            <option value="">38</option>
+                            <option value="">39</option>
                             <option value="">40</option>
                             <option value="">42</option>
                             <option value="">44</option>
